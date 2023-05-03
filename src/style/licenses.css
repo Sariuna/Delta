@@ -1,0 +1,30 @@
+.licenses {
+  background-color: #242424;
+}
+
+.licenses__content-title {
+  color: #fff;
+  margin-bottom: 89px;
+}
+
+.swiper-navigation_licence {
+  display: none;
+}
+
+@media (max-width: 1279px)  {
+  .licenses__content-title {
+    margin-bottom: 34px;
+  }
+}
+
+@media (max-width: 767px)  {
+  .licenses__content-title {
+    margin-bottom: 23px;
+  }
+}
+
+@media (max-width: 639px)  {
+  .swiper-navigation_licence {
+    display: flex;
+  }
+}
