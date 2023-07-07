@@ -1,0 +1,46 @@
+.about-us__title {
+  color: #000000;
+}
+
+.about-us__text {
+  margin-top: 44px;
+}
+
+.about-us__items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 96px;
+}
+
+.about-us__item {
+  align-items: center;
+  display: flex;
+}
+
+.item__title {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.item__title {
+  max-width: 206px;
+}
+
+@media  (max-width: 1279px) {
+  .about-us__text {
+    margin-top: 17px;
+  }
+  .item__title {
+    font-size: 16px;
+    max-width: 154px;
+  }
+}  
+
+@media  (max-width: 767px) {
+  .about-us__items {
+  display: none;
+  margin-top: 0px;
+}
+}  
+
