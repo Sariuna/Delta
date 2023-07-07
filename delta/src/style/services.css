@@ -120,6 +120,9 @@
   .services__title {
   font-size: 20px;
   }
+  .services__content-btn {
+  margin-top: 0;
+  }
 }
 
 @media (max-width: 767px){
